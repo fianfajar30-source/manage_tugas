@@ -11,7 +11,7 @@ class Tugas(ABC):
     def __init__(self, kode, judul, deadline, estimasi_jam):
         self.kode = kode
         self.judul = judul
-        self.deadline = deadline          # objek datetime.date
+        self.deadline = deadline         
         self.estimasi_jam = estimasi_jam  
         self.selesai = False
 
