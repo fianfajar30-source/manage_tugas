@@ -12,7 +12,7 @@ class Tugas(ABC):
         self.kode = kode
         self.judul = judul
         self.deadline = deadline          # objek datetime.date
-        self.estimasi_jam = estimasi_jam  # jam pengerjaan
+        self.estimasi_jam = estimasi_jam  
         self.selesai = False
 
     @abstractmethod
